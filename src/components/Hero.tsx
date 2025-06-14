@@ -59,11 +59,11 @@ const Hero = () => {
 
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{animationDelay: '0.8s'}}>
-          <Button size="lg" className="bg-white text-fitness-primary hover:bg-white/90 font-semibold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-lg">
+          <Button size="lg" className="bg-gradient-to-r from-fitness-primary to-fitness-secondary hover:from-fitness-primary/90 hover:to-fitness-secondary/90 text-white font-semibold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-lg border-0">
             <Mail className="mr-2 w-5 h-5" />
             Join Waitlist
           </Button>
-          <Button size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10 font-semibold px-8 py-4 text-lg rounded-full backdrop-blur-sm border-2">
+          <Button size="lg" className="bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 font-semibold px-8 py-4 text-lg rounded-full border-2 border-white/30 hover:border-white/50 transition-all duration-300">
             See How It Works
             <Play className="ml-2 w-5 h-5" />
           </Button>

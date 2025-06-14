@@ -61,7 +61,7 @@ const CTA = () => {
           {/* CTA Button */}
           <Button 
             size="lg" 
-            className="bg-white text-fitness-primary hover:bg-white/90 font-bold px-12 py-6 text-xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl"
+            className="bg-gradient-to-r from-fitness-secondary to-fitness-accent hover:from-fitness-secondary/90 hover:to-fitness-accent/90 text-white font-bold px-12 py-6 text-xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border-0"
           >
             <Mail className="mr-3 w-6 h-6" />
             Join Waitlist Now
