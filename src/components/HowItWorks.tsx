@@ -56,7 +56,10 @@ const HowItWorks = () => {
                 </div>
 
                 {/* Icon */}
-                <div className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-3xl flex items-center justify-center mb-6 mx-auto mt-8 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                <div
+                  className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-3xl flex items-center justify-center mb-6 mx-auto mt-8 group-hover:scale-110 transition-transform duration-300 shadow-lg animate-bounce-gentle`}
+                  style={{ animationDelay: `${index * 200}ms` }}
+                >
                   <step.icon className="w-10 h-10 text-white" />
                 </div>
 
