@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, Target, Clock } from "lucide-react";
 
@@ -15,7 +14,7 @@ const Hero = () => {
 
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         {/* AI Badge */}
-        <div className="inline-flex items-center gap-2 glass rounded-full px-6 py-3 mb-8 animate-fade-in">
+        <div className="inline-flex items-center gap-2 glass rounded-full px-6 py-3 mb-8 animate-fade-in animate-bounce-gentle">
           <Sparkles className="w-5 h-5 text-yellow-300" />
           <span className="text-sm font-semibold">AI-Powered Fitness Revolution</span>
         </div>

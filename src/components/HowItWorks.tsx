@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { UserCircle, Settings, Zap, Play } from "lucide-react";
 
@@ -57,7 +56,7 @@ const HowItWorks = () => {
 
                 {/* Icon */}
                 <div
-                  className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-3xl flex items-center justify-center mb-6 mx-auto mt-8 group-hover:scale-110 transition-transform duration-300 shadow-lg animate-bounce-gentle`}
+                  className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-3xl flex items-center justify-center mb-6 mx-auto mt-8 group-hover:scale-110 transition-transform duration-300 shadow-lg`}
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   <step.icon className="w-10 h-10 text-white" />

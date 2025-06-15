@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Clock, Apple, Youtube, Brain, Calendar } from "lucide-react";
 
@@ -63,7 +62,7 @@ const Features = () => {
             <Card key={index} className={`border-0 shadow-xl hover-lift bg-white group cursor-pointer`}>
               <CardContent className="p-8">
                 <div
-                  className={`w-16 h-16 bg-gradient-to-r ${feature.gradient} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 animate-bounce-gentle`}
+                  className={`w-16 h-16 bg-gradient-to-r ${feature.gradient} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   <feature.icon className="w-8 h-8 text-white" />
