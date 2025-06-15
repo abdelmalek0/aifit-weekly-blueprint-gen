@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -151,7 +150,7 @@ export default {
 				},
 				'bounce-gentle': {
           '0%, 100%': {
-            transform: 'translateY(-8%)',
+            transform: 'translateY(-15%)',
             animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
           },
           '50%': {
@@ -167,7 +166,7 @@ export default {
 				'slide-up': 'slide-up 0.8s ease-out',
 				'scale-in': 'scale-in 0.5s ease-out',
 				'pulse-slow': 'pulse-slow 2s ease-in-out infinite',
-				'bounce-gentle': 'bounce-gentle 3.5s infinite',
+				'bounce-gentle': 'bounce-gentle 2.5s infinite',
 			}
 		}
 	},
