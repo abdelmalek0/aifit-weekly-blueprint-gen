@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { UserCircle, Settings, Zap, Play } from "lucide-react";
 
@@ -6,42 +7,42 @@ const HowItWorks = () => {
     {
       icon: UserCircle,
       number: "01",
-      title: "Tell Us About You",
-      description: "Share your fitness goals, available time, body metrics, and preferences in just a few minutes.",
-      color: "from-blue-500 to-indigo-600"
+      title: "Hunter Registration",
+      description: "Register with the System by sharing your current stats, goals, and available training time. Every hunter starts somewhere.",
+      color: "from-blue-600 to-indigo-700"
     },
     {
       icon: Settings,
       number: "02", 
-      title: "AI Creates Your Plan",
-      description: "Our advanced AI analyzes your profile and generates a scientifically-backed personalized plan.",
-      color: "from-emerald-500 to-teal-600"
+      title: "System Awakening",
+      description: "The AI System analyzes your profile and creates your personalized leveling path, just like when Jin-Woo first awakened.",
+      color: "from-purple-600 to-pink-700"
     },
     {
       icon: Zap,
       number: "03",
-      title: "Receive Your Program",
-      description: "Get your complete weekly plan with workouts, meals, and detailed instructions delivered instantly.",
-      color: "from-pink-500 to-rose-600"
+      title: "Receive Your Quests",
+      description: "Get your weekly training quests, nutrition missions, and special challenges. Complete them to gain EXP and level up.",
+      color: "from-red-600 to-orange-700"
     },
     {
       icon: Play,
       number: "04",
-      title: "Start Your Journey",
-      description: "Follow your plan with curated video workouts and track your amazing transformation.",
-      color: "from-violet-500 to-purple-600"
+      title: "Begin Your Rise",
+      description: "Start your transformation from E-Rank to S-Rank. Track your progress as you become the Shadow Monarch of your fitness journey.",
+      color: "from-gray-700 to-gray-900"
     }
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-bold font-poppins mb-6 text-gray-900">
-            How It <span className="bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">Works</span>
+            Your Path to <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">S-Rank</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Get your personalized fitness transformation in four simple steps.
+            Follow the System's guidance and transform from weakest to strongest in four simple steps.
           </p>
         </div>
 
