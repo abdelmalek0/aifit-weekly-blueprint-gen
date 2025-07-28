@@ -59,6 +59,7 @@ const CTA = () => {
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-16 py-8 text-2xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             <Mail className="mr-4 w-7 h-7" />
             Accept the System

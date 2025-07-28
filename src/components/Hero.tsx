@@ -60,7 +60,7 @@ const Hero = () => {
         {/* CTA button with anime styling */}
         <div className="animate-scale-in" style={{animationDelay: '0.8s'}}>
           <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-12 py-6 text-xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30">
-            Start Your Journey
+            Join Waitlist
             <ArrowRight className="ml-3 w-6 h-6" />
           </Button>
           <p className="text-sm text-gray-400 mt-3">Join the Shadow Army of Fitness</p>
