@@ -57,13 +57,20 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* CTA button with anime styling */}
-        <div className="animate-scale-in" style={{animationDelay: '0.8s'}}>
-          <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-12 py-6 text-xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30">
-            Join Waitlist
-            <ArrowRight className="ml-3 w-6 h-6" />
-          </Button>
-          <p className="text-sm text-gray-400 mt-3">Join the Shadow Army of Fitness</p>
+        {/* Email signup form */}
+        <div className="animate-scale-in max-w-md mx-auto" style={{animationDelay: '0.8s'}}>
+          <div className="flex flex-col sm:flex-row gap-4 mb-4">
+            <input 
+              type="email" 
+              placeholder="Enter your email to join the Shadow Army"
+              className="flex-1 px-6 py-4 rounded-full bg-white/10 border border-purple-400/30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 backdrop-blur-sm"
+            />
+            <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30">
+              Join Waitlist
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Button>
+          </div>
+          <p className="text-sm text-gray-400">Join the Shadow Army of Fitness</p>
         </div>
 
         {/* Stats with Solo Leveling terminology */}

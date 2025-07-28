@@ -55,16 +55,25 @@ const CTA = () => {
             </div>
           </div>
 
-          {/* CTA Button */}
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-16 py-8 text-2xl rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          >
-            <Mail className="mr-4 w-7 h-7" />
-            Accept the System
-            <ArrowRight className="ml-4 w-7 h-7" />
-          </Button>
+          {/* Email signup form */}
+          <div className="max-w-lg mx-auto mb-8">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <input 
+                type="email" 
+                placeholder="Enter your email to accept the System"
+                className="flex-1 px-6 py-4 rounded-full bg-white/10 border border-purple-400/30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 backdrop-blur-sm text-lg"
+              />
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              >
+                <Mail className="mr-2 w-6 h-6" />
+                Accept the System
+                <ArrowRight className="ml-2 w-6 h-6" />
+              </Button>
+            </div>
+          </div>
 
           {/* Stats with Solo Leveling references */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-white">
