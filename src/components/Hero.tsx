@@ -59,13 +59,13 @@ const Hero = () => {
 
         {/* Email signup form */}
         <div className="animate-scale-in max-w-lg mx-auto" style={{animationDelay: '0.8s'}}>
-          <div className="flex flex-col sm:flex-row gap-4 mb-4">
+          <div className="flex bg-white/10 border border-purple-400/30 rounded-full p-2 backdrop-blur-sm mb-4">
             <input 
               type="email" 
               placeholder="Enter your email to join the Shadow Army"
-              className="flex-1 px-6 py-4 text-lg rounded-full bg-white/10 border border-purple-400/30 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-purple-400 backdrop-blur-sm transition-all duration-300"
+              className="flex-1 px-4 py-3 text-lg bg-transparent text-white placeholder-gray-400 focus:outline-none"
             />
-            <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl border border-purple-400/30 whitespace-nowrap">
+            <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 text-white font-bold px-6 py-3 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-lg border-0 whitespace-nowrap">
               Join Waitlist
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
